@@ -14,7 +14,7 @@ app.post(
 );
 
 app.post("/signin", controller.login);
-app.get("/signin", controller.getDataUser);
+// app.get("/signin", controller.getDataUser);
 
 app.post("/signout", controller.logout);
 
